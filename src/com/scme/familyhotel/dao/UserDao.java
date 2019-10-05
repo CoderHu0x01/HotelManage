@@ -1,0 +1,15 @@
+package com.scme.familyhotel.dao;
+
+import java.util.ArrayList;
+
+import com.scme.familyhotel.pojo.User;
+
+public interface UserDao {
+	//µ«¬º
+	public abstract User login(User user);
+	
+	//≤È’“”√ªß
+	public abstract ArrayList<User> findUser();
+	
+	
+}
